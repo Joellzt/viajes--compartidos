@@ -5,8 +5,8 @@ const Inicio = () => {
     <>
       <div className="contenedorInicio">
         <div className="cardInicio">
-          <h1>Bienvenidos a <span className="marca">Viajes Compartidos</span></h1>
-          <p>Una forma colaborativa de viajar entre las estrellas ✨</p>
+          <h1>Bienvenidos a <span className="marca">Record Paper</span></h1>
+          <p>Una herramienta de ayuda a la memoria</p>
           <div className="botones">
             <Link to="/Iniciar"><button className="btnInicio">Iniciar sesión</button></Link>
             <Link to="/Registrar"><button className="btnInicio">Registrarse</button></Link>

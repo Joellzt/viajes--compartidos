@@ -11,10 +11,6 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navLinks">
           <Link className='navLink' to="/">Inicio</Link>
-          <Link className="navLink" to="/Panel">Viajes</Link>
-          <Link className="navLink" to="/medios">Medios de pago</Link>
-          <Link className="navLink" to="/condiciones">Condiciones de viaje</Link>
-          <Link className="navLink" to="/faq">Preguntas frecuentes</Link>
         </div>
 
         {usuario ? (
